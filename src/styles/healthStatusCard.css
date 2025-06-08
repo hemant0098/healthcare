@@ -1,0 +1,26 @@
+.health-cards {
+  display: flex;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.health-card {
+  flex: 1;
+  background: white;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.05);
+}
+
+.health-card h4 {
+  margin: 0 0 10px;
+}
+
+.health-card p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.health-card small {
+  color: #888;
+}

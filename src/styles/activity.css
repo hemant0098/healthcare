@@ -1,0 +1,28 @@
+.activity-feed {
+  background: white;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.activity-feed p {
+  color: #666;
+  margin-bottom: 16px;
+}
+
+.bar-chart {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+  height: 120px;
+  background: #f1f1f1;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.bar {
+  flex: 1;
+  background-color: #007bff;
+  border-radius: 4px 4px 0 0;
+}

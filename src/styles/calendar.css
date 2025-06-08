@@ -1,0 +1,40 @@
+.calendar-view {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.calendar-day {
+  background: #f5f5f5;
+  padding: 10px;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 14px;
+  min-height: 60px;
+}
+
+.slot {
+  margin-top: 5px;
+  font-size: 12px;
+  color: #007bff;
+}
+
+.appointments {
+  margin-top: 20px;
+}
+
+.appointment-card {
+  background: #eef6ff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-left: 4px solid #007bff;
+  border-radius: 6px;
+}

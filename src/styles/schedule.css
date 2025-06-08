@@ -1,0 +1,37 @@
+.upcoming-schedule {
+  background: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.day-group h4 {
+  margin: 16px 0 8px;
+  color: #555;
+}
+
+.simple-appointment-card {
+  display: flex;
+  align-items: center;
+  padding: 10px 12px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  background: #f9f9f9;
+}
+
+.simple-appointment-card .icon {
+  font-size: 20px;
+  margin-right: 12px;
+}
+
+.simple-appointment-card .title {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.simple-appointment-card .time {
+  font-size: 12px;
+  color: #777;
+}
